@@ -1,0 +1,15 @@
+{
+  "name": "hexagonal-typescript-template",
+  "version": "0.0.1",
+  "description": "Starter template for my personal projects based on Hexagonal Architecture.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["typescript", "hexagonal", "ts", "nodejs"],
+  "author": "Olavio Lacerda",
+  "license": "ISC"
+}

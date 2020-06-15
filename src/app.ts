@@ -1,8 +1,10 @@
+import { Logger } from './utils/logger';
+
 export class Application {
   private isStarted: boolean;
 
   constructor() {
-    this.isStarted = false
+    this.isStarted = false;
   }
 
   appStarted(): boolean {
@@ -10,7 +12,7 @@ export class Application {
   }
 
   private async initServers(): Promise<void> {
-    console.log('Starting servers...')
+    Logger.info('Starting servers...');
   }
 
   async start(): Promise<void> {

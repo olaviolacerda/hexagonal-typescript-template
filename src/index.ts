@@ -1,8 +1,9 @@
-import { Application } from "./app";
+import { Application } from './app';
+import { Logger } from './utils/logger';
 
 const application = new Application();
 
 setImmediate(async () => {
   await application.start();
-  console.log('Application started.')
+  Logger.info('Application started.');
 });

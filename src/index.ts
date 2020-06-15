@@ -1,12 +1,4 @@
-class Application {
-  private async initServers(): Promise<void> {
-    console.log('Starting servers...')
-  }
-
-  async start(): Promise<void> {
-    await this.initServers();
-  }
-}
+import { Application } from "./app";
 
 const application = new Application();
 

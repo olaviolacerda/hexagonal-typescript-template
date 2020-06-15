@@ -2,7 +2,7 @@
   "name": "hexagonal-typescript-template",
   "version": "0.0.1",
   "description": "Starter template for my personal projects based on Hexagonal Architecture.",
-  "main": "index.js",
+  "main": "src/index.js",
   "author": "Olavio Lacerda",
   "license": "MIT",
   "keywords": [
